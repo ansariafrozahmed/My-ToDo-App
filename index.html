@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List - Ansari Afroz Ahmed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="nav">
+            <h1 class="logo_text">MyBucketList</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">My Portfolio</a></li>
+            </ul>
+        </div>
+
+        <div class="hero">
+            <div class="heroleft">
+                <h1 class="txt1">Hi there !!</h1>
+                <h1 class="txt2">Enter the task you want to add in your bucket list</h1>
+                <input class="inpt" id="inpt" type="text" placeholder="Enter here !">
+                <button class="btn" id="btn" onclick="addlist()">Add Task</button>
+            </div>
+            <div class="heroright">
+                <div class="box" id="textbox">
+                    <h2 id="mylist">My List</h2>
+                    <div class="dummy" id="dummy">
+                        <h1>Your list will<br>appear here</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

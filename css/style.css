@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Proza Libre", sans-serif;
+  color: #fff;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #6600cc 0%, #9966ff 100%);
+}
+
+.nav {
+  height: 10vh;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .logo_text {
+  font-family: "Great Vibes", cursive;
+  letter-spacing: 0.3vw;
+}
+.nav ul {
+  display: flex;
+  gap: 3vw;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.1s ease-in-out;
+}
+.nav ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+}
+.hero .heroleft {
+  height: 85vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 0 150px;
+}
+.hero .heroleft .txt1 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+.hero .heroleft .txt2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.hero .heroleft .inpt {
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1rem;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.hero .heroleft .btn {
+  margin-top: 30px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 10px 50px;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.hero .heroleft .btn:hover {
+  background: #6600cc;
+  border: 2px solid #6600cc;
+  transform: scale(1.05);
+}
+.hero .heroright {
+  height: 90vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .heroright .box {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  width: 60%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.hero .heroright .box h2 {
+  color: grey;
+  padding: 5px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: none;
+}
+.hero .heroright .box .dummy {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.hero .heroright .box p {
+  background-color: #9966ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 1.1rem;
+}
+.hero .heroright .box i {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.hero .heroright .box i:hover {
+  color: red;
+  transform: scale(1.5);
+}
+.hero .heroright .box h1 {
+  font-size: 2rem;
+  padding: 0 50px;
+  text-align: center;
+  color: grey;
+}/*# sourceMappingURL=style.css.map */
