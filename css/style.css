@@ -103,7 +103,7 @@
   overflow: auto;
   width: 60%;
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.468) 0px 14px 28px, rgba(0, 0, 0, 0.468) 0px 10px 10px;
 }
 .hero .heroright .box h2 {
   color: grey;
