@@ -22,8 +22,10 @@
   justify-content: space-between;
 }
 .nav .logo_text {
-  font-family: "Great Vibes", cursive;
-  letter-spacing: 0.3vw;
+  color: transparent;
+  font-size: 2.2rem;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #fff;
 }
 .nav ul {
   display: flex;

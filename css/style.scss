@@ -29,10 +29,14 @@ $text_color: #fff;
     justify-content: space-between;
 
     .logo_text {
-        font-family: $logo_font;
+        // font-family: $logo_font;
         // color: $text_color;
-        // font-weight: 800;
-        letter-spacing: 0.3vw;
+        color: transparent;
+        font-size: 2.2rem;
+        font-weight: 900;
+        -webkit-text-stroke: 1px #fff;
+        // text-shadow: #9966ff 2px 2px 2px;
+        // letter-spacing: 0.1vw;
     }
 
     ul {
