@@ -19,5 +19,9 @@ function addlist() {
         function removelist() {
             newp.remove()
         }
+        const removebtn = document.getElementById('removebtn').addEventListener('click', removealllist)
+        function removealllist() {
+            newp.remove()
+        }
     }
 }
